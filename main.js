@@ -26,4 +26,8 @@ while (calc == true) {
     result = num1 - num2;
     alert(result);
   }
+  else if (op == '') {
+    result = num1 + num2;
+    alert(result);
+  }
 }
